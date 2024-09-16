@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="blue-theme">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>QrAnılar - Dijital Anlarınızın Anahtarı - Kayıt Ol</title>
+
+    <link rel="icon" href="images/favicon.png" type="image/png" />
+
+    <link href="css/pace.min.css" rel="stylesheet" />
+    <script src="js/pace.min.js"></script>
+
+    <link href="plugins/perfect-scrollbar/css/perfect-scrollbar.css" rel="stylesheet" />
+    <link rel="stylesheet" type="text/css" href="plugins/metismenu/metisMenu.min.css" />
+    <link rel="stylesheet" type="text/css" href="plugins/metismenu/mm-vertical.css" />
+
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300;400;500;600&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Material+Icons+Outlined" rel="stylesheet" />
+
+    <link href="css/bootstrap-extended.css" rel="stylesheet" />
+    <link href="css/main.css" rel="stylesheet" />
+    <link href="css/dark-theme.css" rel="stylesheet" />
+    <link href="css/blue-theme.css" rel="stylesheet" />
+    <link href="css/responsive.css" rel="stylesheet" />
+    <link rel="stylesheet" href="css/custom.css" />
+  </head>
+
+  <body class="user__bdy--hg">
+    <div class="user__height">
+      <div class="card user__login-form--wd">
+        <div class="row">
+          <div class="d-flex">
+            <div class="card-body">
+              <img src="images/logo.png" class="mb-4" width="145" alt="" />
+              <h4 class="fw-bold text-center">Hemen Başlayın</h4>
+              <p class="mb-0 text-center">Hesabınıza giriş yapmak için kimlik bilgilerinizi girin</p>
+              <div class="container mt-3">
+                <ul class="nav nav-pills user__register--df" id="myTab" role="tablist">
+                  <li class="nav-item" role="presentation">
+                    <button class="nav-link active" id="bireysel-tab" data-bs-toggle="tab" data-bs-target="#bireysel" type="button" role="tab" aria-controls="kurumsal" aria-selected="true">Bireysel</button>
+                  </li>
+                  <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="kurumsal-tab" data-bs-toggle="tab" data-bs-target="#kurumsal" type="button" role="tab" aria-controls="bireysel" aria-selected="false">Kurumsal</button>
+                  </li>
+                </ul>
+
+                <div class="tab-content mt-2" id="myTabContent">
+                  <div class="tab-pane fade show active" id="bireysel" role="tabpanel" aria-labelledby="bireysel-tab">
+                    <form class="row g-3">
+                      <div class="col-12">
+                        <label for="inputUsername" class="form-label">İsim Soyisim</label>
+                        <input type="text" class="form-control" id="inputUsername" placeholder="İsim Soyisim" />
+                      </div>
+                      <div class="col-6">
+                        <label for="inputEmailAddress" class="form-label">E-posta</label>
+                        <input type="email" class="form-control" id="inputEmailAddress" placeholder="E-posta" />
+                      </div>
+                      <div class="col-6">
+                        <label for="inputEmailAddress" class="form-label">E-posta</label>
+                        <input type="text" class="form-control" id="inputphone" placeholder="Telefon" />
+                      </div>
+                      <div class="col-6">
+                        <label for="inputChoosePassword" class="form-label">Şifre</label>
+                        <div class="input-group" id="show_hide_password">
+                          <input type="password" class="form-control border-end-0" id="inputChoosePassword" placeholder="Şifre" />
+                          <a href="javascript:;" class="input-group-text bg-transparent"><i class="bi bi-eye-slash-fill"></i></a>
+                        </div>
+                      </div>
+                      <div class="col-6">
+                        <label for="inputChoosePassword" class="form-label">Şifre Tekrar</label>
+                        <div class="input-group" id="show_hide_password">
+                          <input type="password" class="form-control border-end-0" id="inputChoosePassword" placeholder="Şifre Tekrar" />
+                          <a href="javascript:;" class="input-group-text bg-transparent"><i class="bi bi-eye-slash-fill"></i></a>
+                        </div>
+                      </div>
+                      <div class="col-12">
+                        <div class="form-check form-switch">
+                          <input class="form-check-input" type="checkbox" id="flexSwitchCheckChecked" />
+                          <label class="form-check-label" for="flexSwitchCheckChecked">I read and agree to Terms &amp; Conditions</label>
+                        </div>
+                      </div>
+                      <div class="col-12">
+                        <div class="d-grid">
+                          <button type="submit" class="btn btn-grd-info">Register</button>
+                        </div>
+                      </div>
+                      <div class="col-12">
+                        <div class="text-start">
+                          <p class="mb-0">Already have an account? <a href="login.html">Sign in here</a></p>
+                        </div>
+                      </div>
+                    </form>
+                  </div>
+
+                  <div class="tab-pane fade" id="kurumsal" role="tabpanel" aria-labelledby="kurumsal-tab">
+                    <form class="row g-3">
+                      <div class="col-12">
+                        <label for="inputUsername" class="form-label">İsim Soyisim</label>
+                        <input type="text" class="form-control" id="inputUsername" placeholder="İsim Soyisim" />
+                      </div>
+                      <div class="col-6">
+                        <label for="inputUsername" class="form-label">Firma Adı</label>
+                        <input type="text" class="form-control" id="inputUsername" placeholder="Firma Adı" />
+                      </div>
+                      <div class="col-6">
+                        <label for="inputUsername" class="form-label">Şehir</label>
+                        <select class="form-control" id="inputSehir">
+                          <option value="" disabled selected>Şehir Seçiniz</option>
+                        </select>
+                      </div>
+                      <div class="col-6">
+                        <label for="inputUsername" class="form-label">Vergi Numarası</label>
+                        <input type="text" class="form-control" id="inputUsername" placeholder="Vergi Numarası" />
+                      </div>
+                      <div class="col-6">
+                        <label for="inputUsername" class="form-label">Vergi Dairesi</label>
+                        <input type="text" class="form-control" id="inputUsername" placeholder="Vergi Dairesi" />
+                      </div>
+                      <div class="col-6">
+                        <label for="inputEmailAddress" class="form-label">E-posta</label>
+                        <input type="email" class="form-control" id="inputEmailAddress" placeholder="E-posta" />
+                      </div>
+                      <div class="col-6">
+                        <label for="inputEmailAddress" class="form-label">Telefon</label>
+                        <input type="phone" class="form-control" id="inputEmailAddress" placeholder="Telefon" />
+                      </div>
+                      <div class="col-6">
+                        <label for="inputChoosePassword" class="form-label">Şifre</label>
+                        <div class="input-group" id="show_hide_password">
+                          <input type="password" class="form-control border-end-0" id="inputChoosePassword" placeholder="Enter Password" />
+                          <a href="javascript:;" class="input-group-text bg-transparent"><i class="bi bi-eye-slash-fill"></i></a>
+                        </div>
+                      </div>
+                      <div class="col-6">
+                        <label for="inputChoosePassword" class="form-label">Şifre Tekrar</label>
+                        <div class="input-group" id="show_hide_password">
+                          <input type="password" class="form-control border-end-0" id="inputChoosePassword" placeholder="Enter Password" />
+                          <a href="javascript:;" class="input-group-text bg-transparent"><i class="bi bi-eye-slash-fill"></i></a>
+                        </div>
+                      </div>
+                      <div class="col-12">
+                        <div class="form-check form-switch">
+                          <input class="form-check-input" type="checkbox" id="flexSwitchCheckChecked" />
+                          <label class="form-check-label" for="flexSwitchCheckChecked">I read and agree to Terms &amp; Conditions</label>
+                        </div>
+                      </div>
+                      <div class="col-12">
+                        <div class="d-grid">
+                          <button type="submit" class="btn btn-grd-info">Register</button>
+                        </div>
+                      </div>
+                      <div class="col-12">
+                        <div class="text-start">
+                          <p class="mb-0">Already have an account? <a href="login.html">Sign in here</a></p>
+                        </div>
+                      </div>
+                    </form>
+                  </div>
+                </div>
+              </div>
+
+              <div class="form-body mt-4"></div>
+              <div class="separator mt-4">
+                <div class="line"></div>
+                <p class="mb-0 fw-bold">OR SIGN UP WITH</p>
+                <div class="line"></div>
+              </div>
+              <div class="bill__btn--df">
+                <div class="login__btn">
+                  <button class="btn btn-filter py-2 px-4 font-text1 fw-bold d-flex align-items-center justify-content-center w-100">
+                    <span class=""><img src="images/apps/05.png" width="20" class="me-2" alt="" />Google İle Giriş Yapın</span>
+                  </button>
+                </div>
+                <div class="login__btn">
+                  <button class="btn btn-filter py-2 px-4 font-text1 fw-bold d-flex align-items-center justify-content-center w-100">
+                    <span class=""><img src="images/apps/apple.png" width="20" class="me-2" alt="" />Apple İle Giriş Yapın</span>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="js/jquery.min.js"></script>
+
+    <script>
+      $(document).ready(function () {
+        $("#show_hide_password a").on("click", function (event) {
+          event.preventDefault();
+          if ($("#show_hide_password input").attr("type") == "text") {
+            $("#show_hide_password input").attr("type", "password");
+            $("#show_hide_password i").addClass("bi-eye-slash-fill");
+            $("#show_hide_password i").removeClass("bi-eye-fill");
+          } else if ($("#show_hide_password input").attr("type") == "password") {
+            $("#show_hide_password input").attr("type", "text");
+            $("#show_hide_password i").removeClass("bi-eye-slash-fill");
+            $("#show_hide_password i").addClass("bi-eye-fill");
+          }
+        });
+      });
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
+    <script src="js/city.js"></script>
+    <script src="js/users.js"></script>
+    <script src="path/to/your/javascript.js"></script>
+
+  </body>
+</html>

@@ -1,0 +1,293 @@
+/*---------Header---------*/
+
+.header__menu--df {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.main-header .outer-container .logo-box .logo {
+  padding: 0px !important;
+}
+
+.main-menu .navigation > li {
+  padding: 0px !important;
+}
+
+.header__menu--static {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 110px;
+}
+
+.header__user--login {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.header__user--btn {
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+
+.menu-area.pull-right.clearfix {
+  display: flex;
+  align-items: center;
+}
+
+.header__flag {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  border-right: 1px solid #fff;
+  padding-right: 15px;
+}
+
+/*---------index---------*/
+
+.inner-box{
+  height: 540px !important;
+}
+
+.useage__card--pd{
+  padding: 0 !important;
+}
+
+.usage__description{
+  padding: 30px;
+}
+
+.table-footer {
+  margin-bottom: 15px;
+}
+
+/*?---------Mobile--Header---------*/
+
+.mobile-menu {
+  width: 100%;
+}
+
+.mobile-menu .close-btn {
+  right: 38px;
+  top: 40px;
+  font-size: 25px;
+}
+
+/*?---------Slider---------*/
+
+.banner-style-four .content-box .btn-box .link-btn {
+  padding: 11px 20px;
+}
+
+/*!---------Panel---------*/
+
+.sidebar-wrapper .sidebar-header .logo-img {
+  width: 100% !important;
+  margin-top: 20px;
+}
+
+.sidebar-wrapper .sidebar-header {
+  padding: 0 !important;
+}
+
+/**--------Prodact Header-----------**/
+
+.project__header--df {
+  display: flex;
+  justify-content: space-between;
+}
+
+/**--------Prodact Table-----------**/
+
+.table__sutun--center {
+  text-align: center; /* Yatayda ortalama */
+  vertical-align: middle; /* Dikeyde ortalama */
+}
+
+/* Ekstra: Butonları hizalamak için */
+.project__table--edit,
+.project__table--delete {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 130px;
+  height: 34px;
+}
+
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ff0000;
+  transition: 0.4s;
+  border-radius: 34px;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  transition: 0.4s;
+  border-radius: 50%;
+}
+
+input:checked + .slider {
+  background-color: #2196f3;
+}
+
+input:checked + .slider:before {
+  transform: translateX(95px);
+}
+
+.statusText {
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  top: 50%;
+  display: flex;
+  transform: translateY(-50%);
+  font-size: 12px;
+  color: white;
+  pointer-events: none;
+  z-index: 1;
+  justify-content: center;
+}
+
+button.project__table--edit {
+  background-color: green;
+  color: #fff;
+  border: none;
+  border-radius: 34px;
+  padding: 10px 30px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+button.project__table--delete {
+  background-color: red;
+  color: #fff;
+  border: none;
+  border-radius: 34px;
+  padding: 10px 30px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+/*?---------User--login---------*/
+
+.user__bdy--hg {
+  height: 100vh;
+}
+
+.user__height {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.user__login-form--wd {
+  width: 35%;
+  margin-bottom: 0 !important;
+}
+
+.bill__btn--df {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  padding: 30px;
+}
+
+/*?---------User--Register---------*/
+
+.nav-pills .nav-link {
+  border: 0;
+  border-bottom: 3px solid transparent;
+  border-radius: 0;
+}
+
+.nav-pills .nav-link.active {
+  background-color: transparent;
+  border-bottom-color: #0d6efd; /* Bootstrap primary color */
+}
+
+.user__register--df {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/*---------Responsive---------*/
+
+/*?---------Mobile--Header---------*/
+
+@media (max-width: 1200px) {
+  .header__user--login {
+    display: none;
+  }
+
+  .menu-area .mobile-nav-toggler {
+    margin-top: 0px;
+    padding: 0px;
+  }
+
+  .mobile-menu .header__user--login {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0;
+  }
+
+  .mobile__header--user {
+    width: 100%;
+    position: relative;
+    display: flex;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    line-height: 24px;
+    padding: 10px 25px;
+    font-size: 15px;
+    font-weight: 500;
+    color: #ffffff;
+    text-transform: uppercase;
+    -webkit-transition: all 500ms ease;
+    -moz-transition: all 500ms ease;
+    -ms-transition: all 500ms ease;
+    -o-transition: all 500ms ease;
+    transition: all 500ms ease;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1420px;
+  }
+}
