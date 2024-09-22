@@ -19,7 +19,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 110px;
+  height: 65px;
 }
 
 .header__user--login {
@@ -95,6 +95,23 @@
   position: relative;
   padding: 50px 0px 50px 0px;
   border-bottom: 1px solid #dddddd;
+}
+
+.warning__color {
+  color: #ffffff;
+}
+
+.bottom__ul--border {
+  border-bottom: 1px solid #ffffff7a;
+}
+
+ul.table-content__list--wd {
+  width: 70%;
+}
+
+.table-content {
+  display: flex !important;
+  justify-content: center;
 }
 
 /*?---------Mobile--Header---------*/
