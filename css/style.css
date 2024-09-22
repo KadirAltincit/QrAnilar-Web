@@ -4899,21 +4899,6 @@ div#mCSB_1_container{
   border-radius: 30px;
 }
 
-.pricing-block-two:hover .pricing-table .table-header .title,
-.pricing-block-two:hover .pricing-table .table-header .price,
-.pricing-block-two:hover .pricing-table .table-header .price:before{
-  color: #111;
-}
-
-.pricing-block-two:hover .pricing-table .table-header .text,
-.pricing-block-two:hover .pricing-table .table-content li{
-  color: #777;
-}
-
-.pricing-block-two:hover .pricing-table .table-footer a{
-  background: #4527a4;
-}
-
 .subscribe-section.home-3{
   padding-top: 115px;
 }
@@ -13584,7 +13569,7 @@ div#mCSB_1_container{
 
 #image_block_37 .image-box img{
   position: relative;
-  width: 100*;
+  width: 100%;
 }
 
 #image_block_37 .image-box .bg-layer{

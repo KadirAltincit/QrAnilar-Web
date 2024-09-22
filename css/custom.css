@@ -53,20 +53,42 @@
 
 /*---------index---------*/
 
-.inner-box{
+.useage__card--pd {
+  padding: 0 !important;
   height: 540px !important;
 }
 
-.useage__card--pd{
-  padding: 0 !important;
-}
-
-.usage__description{
+.usage__description {
   padding: 30px;
 }
 
 .table-footer {
   margin-bottom: 15px;
+}
+
+.packages__gr {
+  display: grid;
+  grid-template-columns: repeat(3, 2fr);
+  justify-items: center;
+  gap: 30px;
+}
+
+.packages__wd {
+  width: 85%;
+}
+
+.pricing-block-two .pricing-table:hover {
+  position: relative;
+  display: block;
+  overflow: hidden;
+  background: #4527a4;
+  padding: 41px 15px 45px 15px;
+  border-radius: 30px;
+  transition: all 500ms ease;
+}
+
+.pricing-block-two .pricing-table .table-header .price:hover{
+  color: #fff !important;
 }
 
 /*?---------Mobile--Header---------*/
