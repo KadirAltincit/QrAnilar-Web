@@ -87,8 +87,14 @@
   transition: all 500ms ease;
 }
 
-.pricing-block-two .pricing-table .table-header .price:hover{
+.pricing-block-two .pricing-table .table-header .price:hover {
   color: #fff !important;
+}
+
+.main-footer .footer-top {
+  position: relative;
+  padding: 50px 0px 50px 0px;
+  border-bottom: 1px solid #dddddd;
 }
 
 /*?---------Mobile--Header---------*/
