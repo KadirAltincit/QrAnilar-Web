@@ -1,0 +1,35 @@
+{
+  "folders": [
+	{
+		"name": "documentation",
+		"path": "../../../../../../../BlueNight Yazılım/Firmalar/QrAnılar/QrAnılar Panel/documentation"
+	},
+	{
+		"name": "qranilar",
+		"path": ".."
+	},
+	{
+		"name": "layouts",
+		"path": "../../../../../../../BlueNight Yazılım/Firmalar/QrAnılar/QrAnılar Panel/layouts"
+	},
+	{
+		"name": "rtl",
+		"path": "../../../../../../../BlueNight Yazılım/Firmalar/QrAnılar/QrAnılar Panel/rtl"
+	},
+	{
+		"name": "scss",
+		"path": "../../../../../../../BlueNight Yazılım/Firmalar/QrAnılar/QrAnılar Panel/scss"
+	},
+	{
+		"name": "src",
+		"path": "../../../../../../../BlueNight Yazılım/Firmalar/QrAnılar/QrAnılar Panel/src"
+	},
+	{
+		"name": "tools",
+		"path": "../../../../../../../BlueNight Yazılım/Firmalar/QrAnılar/QrAnılar Panel/tools"
+	}
+],
+  "settings": {
+    "liveServer.settings.multiRootWorkspaceName": "qranilar"
+  }
+}
